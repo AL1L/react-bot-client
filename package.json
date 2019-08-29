@@ -2,16 +2,33 @@
   "name": "react-bot-client",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.2",
+    "@babel/register": "^7.4.4",
+    "electron": "^5.0.6",
+    "electron-devtools-installer": "^2.2.4"
+  },
   "dependencies": {
+    "discord.js": "^11.5.1",
+    "express": "^4.17.1",
+    "foreman": "^3.0.1",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-redux": "^7.1.0",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.4"
   },
+  "homepage": "./",
+  "main": "src/electron-starter.js",
   "scripts": {
     "start": "react-scripts start",
+    "test:debug": "react-scripts --inspect-brk start --no-cache",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "debug": "nf start -p 3000"
   },
   "eslintConfig": {
     "extends": "react-app"
