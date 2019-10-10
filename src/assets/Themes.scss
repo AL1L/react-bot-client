@@ -1,0 +1,38 @@
+.theme-dark {
+  $header_primary: #fff;
+  $header_secondary: #b9bbbe;
+  $text_normal: #dcddde;
+  $text_muted: #72767d;
+  $text_link: #00b0f4;
+  $channels_default: #8e9297;
+  $interactive_normal: #b9bbbe;
+  $interactive_hover: #dcddde;
+  $interactive_active: #fff;
+  $interactive_muted: #4f545c;
+  $background_primary: #36393f;
+  $background_secondary: #2f3136;
+  $background_tertiary: #202225;
+  $background_accent: #4f545c;
+  $background_floating: #18191c;
+  $background_modifier_hover: rgba(79, 84, 92, 0.16);
+  $background_modifier_active: rgba(79, 84, 92, 0.24);
+  $background_modifier_selected: rgba(79, 84, 92, 0.32);
+  $background_modifier_accent: hsla(0, 0%, 100%, 0.06);
+  $elevation_low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
+  $elevation_high: 0 8px 16px rgba(0, 0, 0, 0.24);
+  $logo_primary: #fff;
+  $guild_header_text_shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  $channeltextarea_background: #40444b;
+  $activity_card_background: #202225;
+  $deprecated_panel_background: #292b2f;
+  $deprecated_card_bg: rgba(32, 34, 37, 0.6);
+  $deprecated_card_editable_bg: rgba(32, 34, 37, 0.3);
+  $deprecated_store_bg: #36393f;
+  $deprecated_quickswitcher_input_background: #72767d;
+  $deprecated_quickswitcher_input_placeholder: hsla(0, 0%, 100%, 0.3);
+  $deprecated_text_input_bg: rgba(0, 0, 0, 0.1);
+  $deprecated_text_input_border: rgba(0, 0, 0, 0.3);
+  $deprecated_text_input_border_hover: #040405;
+  $deprecated_text_input_border_disabled: #202225;
+  $deprecated_text_input_prefix: #dcddde;
+}
